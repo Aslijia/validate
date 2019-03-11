@@ -6,7 +6,7 @@ import Property from './property';
 import Messages from './messages';
 import Validators from './validators';
 import ValidationError from './error';
-import {walk, join, assign} from './utils';
+import { walk, join, assign } from './utils';
 
 /**
  * A Schema defines the structure that objects should be validated against.
@@ -235,7 +235,7 @@ export default class Schema {
       this.typecast(obj);
     }
 
-    if (opts.strip !== false) {
+    if (opts.strip) {
       this.strip(obj);
     }
 
