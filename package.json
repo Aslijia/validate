@@ -1,9 +1,9 @@
 {
   "name": "@aslijia/validate",
   "description": "Validate object properties in javascript.",
-  "version": "4.5.1",
+  "version": "4.5.2",
   "author": "Eivind Fjeldstad",
-  "repository": "eivindfjeldstad/validate",
+  "repository": "https://github.com/Aslijia/validate",
   "keywords": [
     "validation",
     "validate",
@@ -11,12 +11,7 @@
     "object"
   ],
   "scripts": {
-    "test": "jest",
-    "test-cov": "jest --coverage --runInBand --forceExit",
-    "docs": "documentation readme ./src/*.js --section=API",
-    "lint": "eslint src test",
-    "build": "babel -d build src",
-    "prepublish": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "types": "./types/index.d.ts",
   "engines": {
@@ -41,17 +36,6 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^4.0.0",
     "jest": "^22.4.3"
-  },
-  "jest": {
-    "testMatch": [
-      "**/test/**/*.js"
-    ],
-    "coverageReporters": [
-      "text-summary",
-      "lcov"
-    ],
-    "bail": true,
-    "testEnvironment": "node"
   },
   "files": [
     "build"
