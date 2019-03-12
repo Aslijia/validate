@@ -66,7 +66,7 @@ export default class Schema {
      * @param {Object} obj
      * @param {Object} [opts]
      */
-    assert(obj: object, opts?: object);
+    assert(obj: object, opts?: object): object | undefined;
 
     /**
      * Override default error messages.

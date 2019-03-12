@@ -1,7 +1,7 @@
 {
   "name": "@aslijia/validate",
   "description": "Validate object properties in javascript.",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "author": "Eivind Fjeldstad",
   "repository": "aslijia/validate",
   "keywords": [
